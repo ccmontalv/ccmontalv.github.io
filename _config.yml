@@ -6,7 +6,7 @@
 name: Christian C. Montalvo
 
 # Short bio or description (displayed in the header)
-description: Hi. Here you can learn about me and my interests by navigating to the pages linked above.
+description: Hi. Here you can learn about me and my interests by navigating to the pages linked below.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://lh3.googleusercontent.com/-XeM8UNlcb3A/TdadeuevMlI/AAAAAAAAAFg/LovH6_T-TNY/w140-h139-p/o_Hey-Arnold-for-web.jpg
@@ -18,9 +18,9 @@ avatar: https://lh3.googleusercontent.com/-XeM8UNlcb3A/TdadeuevMlI/AAAAAAAAAFg/L
 # Includes an icon in the footer for each username you enter
 footer-links:
   email: ccmontalv@gmail.com
-  facebook: https://www.facebook.com/ccmontalvo
-  github: https://github.com/ccmontalv
-  linkedin: https://www.linkedin.com/in/christianmontalvo
+  facebook: ccmontalvo
+  github: ccmontalv
+  linkedin: christianmontalvo
   twitter: ChipperMontalvo
   googleplus: u/0/111745744468212332846
 
