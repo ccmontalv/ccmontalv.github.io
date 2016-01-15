@@ -1,0 +1,30 @@
+---
+layout: default
+section: aquaponics
+title: Aquaponics
+---
+<div class='container'>
+    <div class='row'>
+        <div class='default-column-widths'>
+            <p>Introduction – Why and what I’m doing.
+
+I’m building an aquaponics system as a hobby. The purpose is to learn more about biodiversity, nutrition (soil and human), as well as sustainability.</p>
+        </div>
+    </div>
+    <div class='row'>
+        <div class='default-column-widths listing'>
+            {% for item in site.categories.cooking limit:1000 %}
+                {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
+                {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
+
+                {% if date != ndate %}
+                    <h4 class='month'>{{item.date | date: '%B %Y'}}</h4>
+                {% endif %}
+                <div class='item'>
+                    <a href='{{site.baseurl}}{{item.url}}'>{{item.title}}</a>
+                    <span class='date'>{{item.date | date:"%b %d"}}</span>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
